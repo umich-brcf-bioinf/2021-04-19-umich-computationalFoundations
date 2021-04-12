@@ -45,7 +45,7 @@ be happy to lend a hand to get things working.
 
 -   If you have problems/questions, please don't hesitate to email us
     at:
-    [bioinformatics-workshops\@umich.edu](mailto:bioinformatics-workshops@umich.edu)
+    [bioinformatics-workshops@umich.edu](mailto:bioinformatics-workshops@umich.edu)
 
 -   When emailing it will speed things along if you could include:
     -   Whether you are using Windows or Mac (and optionally which
