@@ -71,7 +71,7 @@
   the workshop.
 
 - Zoom controls are at the bottom of the Zoom window:
-![Zoom controls](images/Module1_zoom_controls.png)
+![Zoom controls](images/Module00_zoom_controls.png)
 
 - To minimize distractions, we encourage participants to keep their audio muted (1) (unless
   actively asking a question).
@@ -79,7 +79,7 @@
 - **Chat** can be used to communicate to the group or to individuals (3).
 - **Reactions** is another way to communicate using "non-verbal controls"
 
-![Zoom non verbals](images/Module1_zoom_nonverbals.png)
+![Zoom non verbals](images/Module00_zoom_nonverbals.png)
 
   - **Raise Hand** to request clarification or ask a question. (Same an in-person workshop.)
   - **Green check** when you complete an assigned task or other instructor feedback
