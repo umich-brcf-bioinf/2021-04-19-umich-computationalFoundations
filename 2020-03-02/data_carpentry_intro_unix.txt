@@ -1,0 +1,50 @@
+Intro to Command Line for Genomics:
+https://datacarpentry.org/shell-genomics/
+
+
+WHAT IS THE SHELL 
+
+Command line interface (OS shell) and graphic user interface (GUI) are different ways of interacting with a computer’s oprating system. The shell is a program that presents a command line interface which allows you to control your computer using commands entered with a keyboard instead of controlling graphical user interfaces (GUIs) with a mouse/keyboard combination.
+
+There are quite a few reasons to start learning about the shell:
+
+    
+    - Many bioinformatics tools can only be used through a command line interface, or have extra capabilities in the command line version that are not available in the GUI. This is true, for example, of BLAST, which offers many advanced functions only accessible to users who know how to use a shell.
+    - The shell makes your work less boring. In bioinformatics you often need to do the same set of tasks with a large number of files. Learning the shell will allow you to automate those repetitive tasks and leave you free to do more exciting things.
+    - The shell makes your work less error-prone. When humans do the same thing a hundred different times (or even ten times), they’re likely to make a mistake. Your computer can do the same thing a thousand times with no mistakes.
+   - The shell makes your work more reproducible. When you carry out your work in the command-line (rather than a GUI), your computer keeps a record of every step that you’ve carried out, which you can use to re-do your work when you need to. It also gives you a way to communicate unambiguously what you’ve done, so that others can check your work or apply your process to new data.
+   - Many bioinformatic tasks require large amounts of computing power and can’t realistically be run on your own machine. These tasks are best performed using remote computers or cloud computing, which can only be accessed through a shell.
+
+DOWNLOAD DATA 
+Go to this website: https://swcarpentry.github.io/shell-novice/setup.html
+Download data-shell.zip and move the file to your desktop 
+
+
+HOW TO ACCESS THE SHELL: 
+
+On a Mac or Linux machine, you can access a shell through a program called Terminal, which is already available on your computer. If you’re using Windows, you’ll need to download a separate program to access the shell.
+
+MAKING MY PROMPT EASIER FOR EVERYONE TO SEE:
+PS1='$ '
+
+NAVIGATING YOUR FILE SYSTEM
+The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called “folders”), which hold files or other directories.
+
+Several commands are frequently used to create, inspect, rename, and delete files and directories.
+
+
+
+
+WHAT IS FLUX? 
+https://arc-ts.umich.edu/flux/
+
+We'll be learning about it in the workshop in the days following
+Flux is the shared, Linux-based high-performance computing (HPC) cluster available to all researchers at the University of Michigan.
+
+Flux consists of approximately 27,000 cores – including 1,372 compute nodes composed of multiple CPU cores, with at least 4 GB of RAM per core, interconnected with InfiniBand networking.
+
+Intro Shell
+
+Navigating files and directories 
+
+Working with files and directories 
