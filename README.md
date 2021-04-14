@@ -25,7 +25,7 @@
 | | [Programming basics](https://datacarpentry.org/R-genomics/01-intro-to-R.html)
 | 10:30 | **Break**
 | 10:45 | [Loading and analyzing data](https://datacarpentry.org/R-genomics/03-data-frames.html)
-| | base R and dplyr
+| | [Introducing packages & dplyr](https://datacarpentry.org/R-genomics/04-dplyr.html) 
 | 12:00 | **Break for lunch**
 | 1:00 | Conditionals | Evan Snitkin |
 | | Loops
