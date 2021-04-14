@@ -27,10 +27,10 @@
 | 10:45 | [Loading and analyzing data](https://datacarpentry.org/R-genomics/03-data-frames.html)
 | | [Introducing packages & dplyr](https://datacarpentry.org/R-genomics/04-dplyr.html) 
 | 12:00 | **Break for lunch**
-| 1:00 | Conditionals | Evan Snitkin |
-| | Loops
-| | Processing multiple files
+| 1:00 | [Conditionals](https://github.com/umich-brcf-bioinf/2021-04-19-umich-computationalFoundations/blob/main/site/day2_R_afternoon_conditionals.md) | Evan Snitkin |
+| | [Loops](https://github.com/umich-brcf-bioinf/2021-04-19-umich-computationalFoundations/blob/main/site/day2_R_afternoon_loops.md)
+| | [Processing multiple files](https://github.com/umich-brcf-bioinf/2021-04-19-umich-computationalFoundations/blob/main/site/day2_R_afternoon_multiple_files_and_plotting.md)
 | 2:30 | **Break**
-| 2:45 | Plotting
+| 2:45 | [Plotting](https://github.com/umich-brcf-bioinf/2021-04-19-umich-computationalFoundations/blob/main/site/day2_R_afternoon_multiple_files_and_plotting.md)
 | | Wrap up, questions, and next steps
 | 4:00 | End of day 2
