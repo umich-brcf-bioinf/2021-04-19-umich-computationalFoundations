@@ -21,13 +21,13 @@
 | | Review and questions
 | 4:00 | End of day 1
 | **Day Two** |
-| 9:00 | [Introducing R/RStudio] | Evan Snitkin |
-| | Programming basics
+| 9:00 | [Introducing R/RStudio] (https://datacarpentry.org/R-genomics/00-before-we-start.html) | Arianna Miles-Jay |
+| | [Programming basics](https://datacarpentry.org/R-genomics/01-intro-to-R.html)
 | 10:30 | **Break**
 | 10:45 | Loading and analyzing data
 | | base R and dplyr
 | 12:00 | **Break for lunch**
-| 1:00 | Conditionals | Arianna Miles-Jay |
+| 1:00 | Conditionals | Evan Snitkin |
 | | Loops
 | | Processing multiple files
 | 2:30 | **Break**
