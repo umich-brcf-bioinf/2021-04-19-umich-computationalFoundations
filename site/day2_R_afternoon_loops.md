@@ -1,5 +1,17 @@
 ## For loops
-For loops perform the same action for each item in a list of things. They take the form: 
+For loops perform the same action for each item in a list of things. 
+
+Some examples where for loops can be useful in real life:
+- Test each gene for differential expression
+- Count the number of mutations in each gene
+- Performing quality control on many different samples
+
+Why are loops useful?
+- They save you a bunch of time!
+- They reduce the opportunity for error that is associated with manually performing repetative tasks
+- They improve the reproducability of your work
+
+For loops in R take the form: 
 
 ```
 for (iterator in a set of values){
@@ -16,11 +28,10 @@ for(i in 1:10){
 }
 ```
 
-You can also have it do something n times, regardless of the iterator i, such as print(i love cats)
-
+Now, let's do something a little more interesting with the loop variable i
 ```
 for(i in 1:10){
-  print('i love cats')
+  print(i*i)
 }
 ```
 
@@ -34,10 +45,11 @@ for (items in my grocery cart){
 
 ```
 items = c('coffee', 'milk', 'eggs')
+
 for(i in items){
   print(paste('scan', i))
   print(paste('get value of', i))
-  print('add value of item to total')
+  print(paste('add value of', i, 'to total'))
 }
 ```
 
