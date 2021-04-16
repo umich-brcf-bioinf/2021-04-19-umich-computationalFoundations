@@ -4,7 +4,7 @@
 
 - This workshop is targeted toward researchers who would like to be able to run
   computational analyses on their own. It assumes a very basic familiarity with
-  genetics and serves as a pre-requisite to downstream workshops in microbiome
+  genetics and serves as a pre-requisite to downstream workshops in Microbial Genomics
   and RNA-Seq analyses.
 
 - By the end of the workshop, attendees will be able to
