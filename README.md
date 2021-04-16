@@ -13,11 +13,11 @@
 | 10:45 | [Commands for viewing and manipulating files](https://datacarpentry.org/shell-genomics/03-working-with-files/index.html)
 | | Review and questions
 | 12:00 | **Break for lunch**
-| 1:00 | [Searching files](https://datacarpentry.org/shell-genomics/04-redirection/index.html) | Dana King |
-| | [Redirection / Pipes](https://datacarpentry.org/shell-genomics/04-redirection/index.html)
+| 1:00 | [Searching files](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/Unix-genomics-II_Redirection) | Dana King |
+| | [Redirection / Pipes](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/Unix-genomics-II_Redirection#redirecting-output)
 | 2:30 | **Break**
-| 2:45 | [Loops](http://swcarpentry.github.io/shell-novice/05-loop/index.html)
-| | [Scripts](http://swcarpentry.github.io/shell-novice/06-script/index.html)
+| 2:45 | [Loops](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/Unix-genomics-II_ForLoops)
+| | [Writing Scripts](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/Unix-genomics-II_ForLoops#writing-scripts-and-working-with-data)
 | | Review and questions
 | 4:00 | End of day 1
 | **Day Two** |
