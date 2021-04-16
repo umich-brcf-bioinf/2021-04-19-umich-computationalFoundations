@@ -1,7 +1,12 @@
 ## Conditionals 
 
 ### Introduction to conditionals 
-Conditional statements are when we check to see if some condition is true or not. 
+Conditional statements are when we check to see if some condition is true or not, before deciding what code to execute.
+
+What are some examples for when conditionals might be useful?
+- Checking that the data you read in from a file is what you expect (e.g. sequencing data and not you're grocery list)
+- Checking that the data is good to work with (e.g. number of sequencing reads meeting a minimum quality threshold)
+- Allowing similar code to have slightly different behaviors depending on user preferences (e.g. plot in color or gray-scale)
 
 These statements generate a value is of type "logical":
 - The value is TRUE if the condition is satisfied
@@ -26,13 +31,18 @@ x > 10
 x >= 10
 x < 10
 x <= 10 
+```
+
+Logical vectors can also be treated as numeric for the purposes of seeing how many times a condition is satisfied
+```
+x == 8
 sum(x == 8)
 ```
 
 We can also string together conditional statements to see if multiple conditions are true. 
 
 ```
-x > 5 & x < 10 
+x > 5 & x < 10 # both have to be true
 x > 9 | x == 8 # only one has to be true 
 x > 9 & x == 8 # both have to be true 
 ```
@@ -42,33 +52,51 @@ x > 9 & x == 8 # both have to be true
 If/else statements use conditionals to control the flow of a program. They use the following format: 
 
 ```
-if (condition is true){
+if (condition is true)
+{
+
    perform an action
- }else if(){
+
+}else{  
+
+   perform an alternative action 
+
 }
-else { that is, if a condition is false, 
-   perform another action }
 ```
 
 Let's try one out with the variable we made, x. 
 
 ```
-if (x > 1){
-  print('x is greather than 1')
-}else if (x>5){
-  print('x is greater than 5 but less than 10')
-}else {print('x is less than  10')}
-```
+if (x < 1)
+{
 
-Here is another version where we make x a logical.
+  print('x is less than 1')
 
-```
-x <- 4==3
-if (x){
-  print('4 equals 3')
 }else{
-  print('4 does not equal 3')
-}
+
+   print('x is greater than  or equal to 1')
+  
+ }
+```
+
+Note - you can add as many sub-conditions as you want!
+
+```
+
+if (x < 1)
+{
+
+  print('x is less than 1')
+
+}else if(x >=1 & x <8){
+
+   print('x is between 1 and 7, inclusive')
+
+}else{
+
+   print('x is greater than 7')
+  
+ }
 ```
 
 Now that we've played with some conditional statments using a variable, let's try applying conditionals with data. 
@@ -76,26 +104,48 @@ Now that we've played with some conditional statments using a variable, let's tr
 First, let's read in our data, which can be downloaded [here](http://swcarpentry.github.io/r-novice-inflammation/setup.html). 
 
 ```
+#READ IN THE CARS CSV FILE
 cars <- read.csv('~/Desktop/data/car-speeds-cleaned.csv', stringsAsFactors = FALSE)
+
+#SEE WHAT TYPE OF VARIABLE CARS IS
 class(cars)
 ```
 
 Let's explore some of the key variables in our data that we will be using. Remember the $ operator from this morning?
 
 ```
+#LET'S SEE WHAT THE COLUMNS OF cars ARE
+str(cars)
+
+#LET'S USE TABLE TO SEE THE DIFFERENT COLORS AND STATES REPRESENTED IN cars
 table(car$Color)
 table(car$State)
+
+#LET'S USE min AND max TO SEE THE RANGE OF SPEEDS
+min(cars$Speed)
+max(cars$Speed)
 ```
 
-Now let's use what we learend about conditional statements to subset our cars data. 
+Now let's use what we learend about conditional statements to explore the data. 
 
 ```
+#LET'S CHECK OUT HOW LONG COLORS IS
+cars$Color
+length(cars$Color)
+
+#HOW LONG IS THE LOGICAL CHECKING IF THE COLOR OF EACH CAR IS BLUE
 cars$Color == 'Blue'
-sum(cars$Color == 'Blue')
 length(cars$Color == 'Blue')
-dim(cars)
+
+#NOW, LET'S SEE HOW MANY CARS ARE BLUE BY TREATING THE LOGICAL AS NUMERIC
+sum(cars$Color == 'Blue')
+sum(cars$Color == 'blue') 
+
+#TRY SOME OTHER COLORS ON YOUR OWN!
 ```
 
+
+Next we are going to use logicals to subset our data frame to focus on the data we are interested in
 ```
 blue_cars = cars[cars$Color == 'Blue',]
 dim(blue_cars)
