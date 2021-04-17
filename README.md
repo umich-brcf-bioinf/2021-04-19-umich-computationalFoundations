@@ -1,5 +1,10 @@
 # Computational Foundations
 
+[Setup instructions](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/setup_instructions)
+
+[Shared Google Doc](https://docs.google.com/document/d/1e2b8o-sFLfXu_zWUzKt3Gc3SXsmHEtGfBn5uxuKLq7o/edit?usp=sharing)
+
+
 ## Schedule
 
 | Time | Topic | Instructor |
@@ -8,7 +13,6 @@
 | 9:00 | [Welcome & Introductions](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/Module00_Introduction) | Chris Gates |
 | 9:30 | [Introducing the UNIX Shell](https://datacarpentry.org/shell-genomics/01-introduction/index.html)
 | | [Navigating the file system](https://datacarpentry.org/shell-genomics/02-the-filesystem/index.html)
-| | [Creating/removing files and directories](https://datacarpentry.org/shell-genomics/03-working-with-files/index.html)
 | 10:30 | **Break**
 | 10:45 | [Commands for viewing and manipulating files](https://datacarpentry.org/shell-genomics/03-working-with-files/index.html)
 | | Review and questions
