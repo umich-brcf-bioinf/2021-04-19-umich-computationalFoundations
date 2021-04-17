@@ -1,8 +1,8 @@
 # Computational Foundations
 
-[Setup instructions](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/setup_instructions)
+## [Setup instructions](https://umich-brcf-bioinf.github.io/2021-04-19-umich-computationalFoundations/site/setup_instructions)
 
-[Shared Google Doc](https://docs.google.com/document/d/1e2b8o-sFLfXu_zWUzKt3Gc3SXsmHEtGfBn5uxuKLq7o/edit?usp=sharing)
+## [Shared Google Doc](https://docs.google.com/document/d/1e2b8o-sFLfXu_zWUzKt3Gc3SXsmHEtGfBn5uxuKLq7o/edit?usp=sharing)
 
 
 ## Schedule
