@@ -86,12 +86,6 @@
   - **Red "X"** to request assistance from helper
     - Hosts will connect you with a helper in a breakout room.
 
-### Breakout Rooms
-
-- We're all going to be transported into randomized breakout rooms to see what that's like.
-- Introduce yourself. And come up with 1-2 reasons why it might be useful to know Bash command line.
-- When you have completed introductions, you can leave the breakout room to rejoin the main room.
-
 
 ### Schedule
 
@@ -133,6 +127,12 @@
  -
  -
 
+
+### Breakout Rooms
+
+- We're all going to be transported into randomized breakout rooms to see what that's like.
+- Introduce yourself. And come up with 1-2 reasons why it might be useful to know Bash command line.
+- When you have completed introductions, you can leave the breakout room to rejoin the main room.
 
 ---
 
