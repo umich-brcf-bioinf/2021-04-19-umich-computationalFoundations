@@ -98,23 +98,22 @@
 | Time | Topic | Instructor |
 | ---- | ----------------- | ---------- |
 | **Day One** |
-| 9:00 | [Welcome & Introductions]
-| 9:30 | [Introducing the UNIX Shell]
-| | [Navigating the file system]
-| | [Creating/removing files and directories]
+| 9:00 | Welcome & Introductions
+| 9:30 | Introducing the UNIX Shell
+| | Navigating the file system
 | 10:30 | **Break**
-| 10:45 | [Commands for viewing and manipulating files]
+| 10:45 | Commands for viewing and manipulating files
 | | Review and questions
 | 12:00 | **Break for lunch**
-| 1:00 | [Searching files]
-| | [Redirection / Pipes]
+| 1:00 | Searching files
+| | Redirection / Pipes
 | 2:30 | **Break**
-| 2:45 | [Loops]
-| | [Scripts]
+| 2:45 | Loops
+| | Scripts
 | | Review and questions
 | 4:00 | End of day 1
 | **Day Two** |
-| 9:00 | [Introducing R/RStudio] | Evan Snitkin |
+| 9:00 | Introducing R/RStudio | Evan Snitkin |
 | | Programming basics
 | 10:30 | **Break**
 | 10:45 | Loading and analyzing data
