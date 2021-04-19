@@ -1,12 +1,9 @@
 ## Conditionals 
 
 ### Introduction to conditionals 
-Conditional statements are when we check to see if some condition is true or not, before deciding what code to execute.
-
-What are some examples for when conditionals might be useful?
-- Checking that the data you read in from a file is what you expect (e.g. sequencing data and not you're grocery list)
-- Checking that the data is good to work with (e.g. number of sequencing reads meeting a minimum quality threshold)
-- Allowing similar code to have slightly different behaviors depending on user preferences (e.g. plot in color or gray-scale)
+Conditional statements are when we check to see if some condition is true or not, before deciding what code to execute. Conditional statements have two primary uses in R:
+1) Executing different sections of code depending on whether a condition is satisfied
+2) Subsetting a dataset to the subsample that meets some desired condition
 
 These statements generate a value is of type "logical":
 - The value is TRUE if the condition is satisfied
@@ -49,7 +46,13 @@ x > 9 & x == 8 # both have to be true
 
 ### Conditionals in if/else statements 
 
-If/else statements use conditionals to control the flow of a program. They use the following format: 
+If/else statements use conditionals to control the flow of a program and allow you to perform different actions depending on whether a condition is met. What are some examples for when if/else statements might be useful?
+- Checking that the data you read in from a file is what you expect (e.g. sequencing data and not you're grocery list)
+- Checking that the data is good to work with (e.g. number of sequencing reads meeting a minimum quality threshold)
+- Allowing similar code to have slightly different behaviors depending on user preferences (e.g. plot in color or gray-scale)
+
+
+They use the following format: 
 
 ```
 if (condition is true)
@@ -99,7 +102,7 @@ if (x < 1)
  }
 ```
 
-Now that we've played with some conditional statments using a variable, let's try applying conditionals with data. 
+Now that we've played with some conditional statments in the context of if/else statements, let's try applying conditionals to explore and subset of dataset. 
 
 First, let's read in our data, which can be downloaded [here](http://swcarpentry.github.io/r-novice-inflammation/setup.html). 
 
